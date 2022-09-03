@@ -1,4 +1,3 @@
-
 public class Data{
     ////lista de atributos
     int dia;
