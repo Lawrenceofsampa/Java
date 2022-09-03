@@ -1,4 +1,4 @@
-public class UsaClasse {
+public class UsaClasse{
     //Criar méttodo principal
     public static void main(String args[]){
         //Declaração de objeto (Reserva espaço na memoria)

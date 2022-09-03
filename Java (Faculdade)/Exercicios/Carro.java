@@ -1,4 +1,4 @@
-public class Carro {
+public class Carro{
     //Lista de atributos
     String marca;
     int ano;
