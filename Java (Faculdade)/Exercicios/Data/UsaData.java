@@ -2,7 +2,7 @@ import javax.swing.JOptionPane;
 public class UsaData{
     public static void main(String[] args) {
         //Declaração e instanciação de objeto:
-        Data d1 = new Data();
+        Data d1 = new Data(); //Aqui declarando o objeto como representado como d1
 
         //Entrada de dados:
         d1.dia = Integer.parseInt(JOptionPane.showInputDialog(

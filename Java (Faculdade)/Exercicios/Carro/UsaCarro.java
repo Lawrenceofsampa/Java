@@ -1,3 +1,4 @@
+
 import javax.sound.sampled.SourceDataLine;
 import javax.swing.JOptionPane;
 import java.util.Scanner;
@@ -13,18 +14,18 @@ public class UsaCarro {
         //Entrada de dados
         //Solicita ao usuário valores e atributos
 
-        //Modod gráfico
+        //Modo gráfico
         fusca.marca = JOptionPane.showInputDialog("Entre com a marca do carro: "); // Classe JOptionPane.showInputDialog para criar alteração com usuário
-        fusca.modelo = JOptionPane.showInputDialog("Digite o modelo"); //Nota-se que as classes são puxadas daquelas definidas anteriormente no arquivo Carro
-        fusca.ano = Integer.parseInt(JOptionPane.showInputDialog("Entre com o ano"));
+        fusca.modelo = JOptionPane.showInputDialog("Digite o modelo: "); //Nota-se que as classes são puxadas daquelas definidas anteriormente no arquivo Carro
+        fusca.ano = Integer.parseInt(JOptionPane.showInputDialog("Entre com o ano: "));
         //Saida de dados - Escreva
         //Modo Gráfico
 
         JOptionPane.showMessageDialog(null,
-            "Marca = " + fusca.marca +
-          "\nModelo = " + fusca.modelo +
-           "\n Ano" + fusca.ano +
-           "\n Cor = " + fusca.cor);
+            "Marca:  " + fusca.marca +
+          "\nModelo: " + fusca.modelo +
+           "\n Ano: " + fusca.ano +
+           "\n Cor: " + fusca.cor);
 
            //Entrada de dados:
            //Modo texto
