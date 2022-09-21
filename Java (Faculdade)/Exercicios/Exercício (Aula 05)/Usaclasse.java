@@ -5,7 +5,6 @@ public class Usaclasse {
         //variáveis aux:
         float base;
         float altura;
-        float area;
 
         //Objetos:
         Tringulo t1;
@@ -16,9 +15,7 @@ public class Usaclasse {
 
         //Instanciação:
         t1 = new Tringulo(base, altura);
-        area = t1.calculaArea();
         t1.imprimeDados();
-        JOptionPane.showInputDialog(null, "Área: " + area);
         
 
 

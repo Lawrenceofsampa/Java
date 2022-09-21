@@ -21,8 +21,9 @@ public class Tringulo {
     }
 
     public void imprimeDados(){
-        JOptionPane.showMessageDialog(null, "\n Área: " + this.base
-        + "\n Altura: " + this.altura);
+        JOptionPane.showMessageDialog(null, "\n Base: " + this.base
+        + "\n Altura: " + this.altura +
+         "\nÁrea: " + calculaArea());
     }
 
 }
