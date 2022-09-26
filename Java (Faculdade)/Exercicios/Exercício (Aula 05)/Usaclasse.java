@@ -5,9 +5,11 @@ public class Usaclasse {
         //variáveis aux:
         float base;
         float altura;
+        Data d1;
 
         //Objetos:
         Tringulo t1;
+        d1 = new Data();
 
         //Solicitação:
         base = Float.parseFloat(JOptionPane.showInputDialog("Entre com a base: "));
@@ -15,7 +17,9 @@ public class Usaclasse {
 
         //Instanciação:
         t1 = new Tringulo(base, altura);
-        t1.imprimeDados();
+        t1.imprimeTriangulo();
+        d1.cadastraDados();
+        d1.imprimeData();
         
 
 
